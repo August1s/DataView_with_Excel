@@ -132,7 +132,10 @@ namespace DataView_with_Excel
         }
 
 
-
+        /// <summary>
+        /// 在表格末端插入一行
+        /// </summary>
+        /// <param name="user">用户实例</param>
         public void InsertRow(User user)
         {
             ApplicationClass excelapp = new ApplicationClass();
